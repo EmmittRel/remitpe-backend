@@ -58,7 +58,7 @@ process.on('SIGINT', async () => {
   console.log('Mongoose connection closed through app termination');
   process.exit(0);
 });
-const contactRoutes = require('./routes/contactRoutes');
+const contactRoutes = require('./Routes/contactRoutes');
 // Routes
 app.use('/api/blogs', require('./Routes/blogs'));
 app.use('/api/categories', require('./Routes/Category'));
