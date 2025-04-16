@@ -4,7 +4,7 @@ const {
   updateStage2,
   getContacts,
   getContact,
-} = require('../controllers/contactController');
+} = require('../Controllers/contactController');
 
 const router = express.Router();
 
