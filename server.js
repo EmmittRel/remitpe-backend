@@ -10,7 +10,7 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: ['http://localhost:3000', 'http://localhost:5173'], 
+  origin: ['http://localhost:3000', 'http://localhost:5173', 'https://remitpe-dashboard.netlify.app/', 'https://remitpe.com/'], 
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
