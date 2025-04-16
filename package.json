@@ -1,15 +1,16 @@
 {
-  "name": "radso_backend",
+  "name": "remitpe_backend",
   "version": "1.0.0",
-  "description": "This is radso backend",
+  "description": "This is remitpe backend",
   "main": "server.js",
   "scripts": {
-    "test": "Hello backend!!"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [
-    "radso"
+    "remitpe"
   ],
-  "author": "vishal",
+  "author": "PRAMIT",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
