@@ -1,10 +1,10 @@
-const express = require('express');
-const router = express.Router();
-const { processFormData, getFormData } = require('../controllers/formController.js');
+// const express = require('express');
+// const router = express.Router();
+// const { processFormData, getFormData } = require('../controllers/formController');
 
-router.post('/submit', processFormData);
+// router.post('/submit', processFormData);
 
-// Route to fetch form data
-router.get('/data', getFormData);
+// // Route to fetch form data
+// router.get('/data', getFormData);
 
-module.exports = router;
+// module.exports = router;
