@@ -63,7 +63,7 @@ const contactRoutes = require('./Routes/contactRoutes');
 app.use('/api/blogs', require('./Routes/blogs'));
 app.use('/api/categories', require('./Routes/Category'));
 app.use('/api/admin', require('./Routes/Admin'));
-app.use('/api/form', require('./Routes/Form'));
+// app.use('/api/form', require('./Routes/Form'));
 app.use('/api/jobportal', require('./Routes/Jobportal'));
 app.use('/api/applicants', require('./Routes/Applicants'));
 app.use('/api/careers', require('./Routes/Career'));
