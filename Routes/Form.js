@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { processFormData, getFormData } = require('../controllers/formController');
+const { processFormData, getFormData } = require('../controllers/formController.js');
 
 router.post('/submit', processFormData);
 
